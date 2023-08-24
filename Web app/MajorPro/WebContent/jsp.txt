@@ -1,0 +1,88 @@
+
+JSP
+-----
+servlets are very good at business logic not for presentation or business design. If we make any changes with servlet then we have to recompile and 
+redeploy the entire web application, to avoid the drawback js[ was introduced.
+It is no the replacement of servlet but it is the enhancement of servlet. Jsp is very good for business presentation if we make any changes to jsp 
+then it is not required to recompile and redeploy the entire web application. jsp is internaly a servlet, jsp engine is responsible to convert jsp 
+to servlet. If the jsp file name is index.jsp then servlet file name is index_jsp.java.
+The technique to include java code in html known as jsp. The following are the advantages of the jsp over servlet:
+-extension to servlet.
+-easy to mainain.
+-very fast deployment.
+-no need to recompile and redeploy.
+
+
+Stage to develop jsp:
+1-create a file within web-content in the name of jsp.
+-Run that file within web server.
+
+
+
+Jsp lifecycle:
+Like servlet jsp having a lifecycle.
+-jsp translation
+-compilation
+-class loading
+-instantiation
+-initialization
+-request processing
+-memory deallocation
+Jsp engine is only responsible to execute the 1st stage convert jsp code to servlet code and other stages are executed by servlet container.
+
+
+Jsp 9 pre-defined objects and 5 pre-defined tags to develop jsp application:
+objects:
+out   -   JSPWriter
+request  -HttpServletRequest
+response -HttpServletResponse
+session  -HttpSession
+application - ServletContext
+config      - ServletConfig
+page        - Object
+pageContext - PageContext
+exception   - Throwable
+
+
+out is used to write data into web browser.
+
+request is an implicit object created for each jsp page by web container.
+
+response- to hande the request response object is associated with each jsp page.
+
+session- to manage the session jsp already provide the object of http session.
+
+application- To set parameter globally we can use application object.
+
+config- To set the parameter locally we can use the object of ServletConfig.
+
+page- This always work as this keyword.
+
+pageContext- to set the value in a given scope we can use pageContext attribute. It provides 4 scopes
+:
+-page_scope
+-request_scope
+-session_scope
+-application_scope
+
+exception - generally jsp is exception free but to the exception acording to requirement we can use exception object.
+
+5 pre-defined tags:
+scriptlet- It is used to place java code in html, the code written within scriptlet tag automatically placed into service method of the
+ servlet the syntax of scriptlet is:-<%! 
+                                       javacodes 
+                                    %>
+
+declaration- as jsp page automatically translated to servlet if we declare a variable within jsp it automatically place b/w the servletoutside
+               service method. the syntax of declaretion <%-
+                                                            Declaration 
+                                                          %>
+
+expression- This tag is self expressive to display or write text in web browser without any object we can use expression tag. There will be no
+              semi-colon after statements.<%=
+                                    javacodes
+                                    %>
+
+directive-
+
+action-

@@ -1,0 +1,50 @@
+[RESOURCES]
+P4 Resource 2
+P3 Resource 2
+P1 Resource 2
+P1 Resource 3
+P4 Resource 1
+P3 Resource 1
+P2 Resource 1
+P1 Recource 1
+P1 Resource 4
+[VARIABLES]
+CHECK SPACE AVAILABILITY NEIGHBOURING NODE OF P2.NumberOut True
+CHECK SPACE AVAILABILITY NEIGHBOURING NODE OF P3.NumberOut True
+CHECK SPACE AVAILABILITY NEIGHBOURING NODE OF P1.NumberOut True
+CHECK SPACE AVAILABILITY NEIGHBOURING NODE OF P4.NumberOut True
+CAR EXIT PARKING LOT.NumberOut
+Distance to parklot 4
+Distance to parklot 3
+Distance to parklot 2
+Distance to parklot 1
+CHECK SPACE AVAILABILITY NEIGHBOURING NODE OF P2.NumberOut False
+CHECK SPACE AVAILABILITY NEIGHBOURING NODE OF P3.NumberOut False
+CHECK SPACE AVAILABILITY NEIGHBOURING NODE OF P1.NumberOut False
+CHECK SPACE AVAILABILITY NEIGHBOURING NODE OF P4.NumberOut False
+Decide PARKING LOT2.NumberOut True
+Decide PARKING LOT2.NumberOut False
+Process PL4 PS2.NumberIn
+Process PL4 PS1.NumberIn
+Process PL1 PS4.NumberIn
+Process PL1 PS3.NumberIn
+Process PL1 PS2.NumberIn
+Process PL3 PS2.NumberIn
+Process PL3 PS1.NumberIn
+Process PL2 PS1.NumberIn
+Process PL1 PS1.NumberIn
+CAR ENTERS THE SYSTEM.NumberOut
+Process PL4 PS2.NumberOut
+Process PL4 PS1.NumberOut
+Process PL1 PS4.NumberOut
+Process PL1 PS3.NumberOut
+Process PL1 PS2.NumberOut
+Process PL3 PS2.NumberOut
+Process PL3 PS1.NumberOut
+Process PL2 PS1.NumberOut
+Process PL1 PS1.NumberOut
+Counter
+Space oocupied in parkinglot 4
+Space oocupied in parkinglot 3
+Space oocupied in parkinglot 2
+Space oocupied in parkinglot 1

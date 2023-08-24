@@ -1,0 +1,16 @@
+external references
+------------------------
+1.  https://www.happiestminds.com/whitepapers/smart-parking.pdf
+2.  https://www.electronicshub.org/ir-sensor/
+3.  https://www.arduino.cc
+4.  wiring.org.co/learning/tutorials/breadboard/
+5.  https://nodemcu.readthedocs.io/
+6.  https://www.espressif.com/en/products/hardware/esp8266ex/
+
+Document References
+-----------------------
+1.  A Cloud-Based Smart-Parking System Based on Internet-of-Things Technologies - Thanh Nam Pham, Ming-Fong Tsai, Duc Binh Nguyen, Chyi-Ren Dow, Der-Jiunn Deng
+2.  Parikng assignment problem: An algorithm for balancing parking demand on multiple parking lots – Oanh Tran Thi Kim, VanDung Nguyen
+3.  IoT based smart parking system – AbhirupKhana, Rishi Anand
+4.  A new “Smart Parking” System Infrastructure and Implementation - YanfengGeng, Christos G. Cassandras
+5.  A Reservation-based Smart Parking System - Hongwei Wang

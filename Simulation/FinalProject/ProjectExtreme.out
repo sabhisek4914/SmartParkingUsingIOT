@@ -1,0 +1,106 @@
+
+                                      ARENA Simulation Results
+                                      Gugul - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/23/2018
+Analyst: Gugul                                                       Model revision date: 4/23/2018
+
+Replication ended at time      : 19.236992 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+CAR.VATime                                  2.3391     (Insuf)    .12034     7.3683         30    
+CAR.NVATime                                 .00000     (Insuf)    .00000     .00000         30    
+CAR.WaitTime                                .00000     (Insuf)    .00000     .00000         30    
+CAR.TranTime                                .51000     (Insuf)    .40000     .70000         30    
+CAR.OtherTime                               .00000     (Insuf)    .00000     .00000         30    
+CAR.TotalTime                               2.8491     (Insuf)    .52034     8.0683         30    
+Process PL4 PS2.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          4    
+Process PL4 PS1.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          5    
+Process PL3 PS2.Queue.WaitingTime               --         --         --         --          0
+Process PL3 PS1.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          4    
+Process PL2 PS1.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          6    
+Process PL1 PS4.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          1    
+Process PL1 PS3.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          2    
+Process PL1 PS2.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          3    
+Process PL1 PS1.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000          5    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+CAR.WIP                                     4.4432     (Insuf)    .00000     9.0000     .00000    
+P4 Resource 2.NumberBusy                    .33197     (Insuf)    .00000     1.0000     .00000    
+P4 Resource 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+P4 Resource 2.Utilization                   .33197     (Insuf)    .00000     1.0000     .00000    
+P3 Resource 2.NumberBusy                    .00000     (Insuf)    .00000     .00000     .00000    
+P3 Resource 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+P3 Resource 2.Utilization                   .00000     (Insuf)    .00000     .00000     .00000    
+P1 Resource 2.NumberBusy                    .48118     (Insuf)    .00000     1.0000     .00000    
+P1 Resource 2.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+P1 Resource 2.Utilization                   .48118     (Insuf)    .00000     1.0000     .00000    
+P1 Resource 3.NumberBusy                    .17364     (Insuf)    .00000     1.0000     .00000    
+P1 Resource 3.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+P1 Resource 3.Utilization                   .17364     (Insuf)    .00000     1.0000     .00000    
+P4 Resource 1.NumberBusy                    .52234     (Insuf)    .00000     1.0000     .00000    
+P4 Resource 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+P4 Resource 1.Utilization                   .52234     (Insuf)    .00000     1.0000     .00000    
+P3 Resource 1.NumberBusy                    .52642     (Insuf)    .00000     1.0000     .00000    
+P3 Resource 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+P3 Resource 1.Utilization                   .52642     (Insuf)    .00000     1.0000     .00000    
+P2 Resource 1.NumberBusy                    .81091     (Insuf)    .00000     1.0000     .00000    
+P2 Resource 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+P2 Resource 1.Utilization                   .81091     (Insuf)    .00000     1.0000     .00000    
+P1 Recource 1.NumberBusy                    .78295     (Insuf)    .00000     1.0000     .00000    
+P1 Recource 1.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+P1 Recource 1.Utilization                   .78295     (Insuf)    .00000     1.0000     .00000    
+P1 Resource 4.NumberBusy                    .01845     (Insuf)    .00000     1.0000     .00000    
+P1 Resource 4.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+P1 Resource 4.Utilization                   .01845     (Insuf)    .00000     1.0000     .00000    
+Process PL4 PS2.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Process PL4 PS1.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Process PL3 PS2.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Process PL3 PS1.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Process PL2 PS1.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Process PL1 PS4.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Process PL1 PS3.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Process PL1 PS2.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Process PL1 PS1.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+CAR.NumberIn                                30.000    
+CAR.NumberOut                               30.000    
+P4 Resource 2.NumberSeized                  4.0000    
+P4 Resource 2.ScheduledUtilization          .33197    
+P3 Resource 2.NumberSeized                  .00000    
+P3 Resource 2.ScheduledUtilization          .00000    
+P1 Resource 2.NumberSeized                  3.0000    
+P1 Resource 2.ScheduledUtilization          .48118    
+P1 Resource 3.NumberSeized                  2.0000    
+P1 Resource 3.ScheduledUtilization          .17364    
+P4 Resource 1.NumberSeized                  5.0000    
+P4 Resource 1.ScheduledUtilization          .52234    
+P3 Resource 1.NumberSeized                  4.0000    
+P3 Resource 1.ScheduledUtilization          .52642    
+P2 Resource 1.NumberSeized                  6.0000    
+P2 Resource 1.ScheduledUtilization          .81091    
+P1 Recource 1.NumberSeized                  5.0000    
+P1 Recource 1.ScheduledUtilization          .78295    
+P1 Resource 4.NumberSeized                  1.0000    
+P1 Resource 4.ScheduledUtilization          .01845    
+System.NumberOut                            30.000    
+
+
+Simulation run time: 4.02 minutes.
+Simulation run complete.

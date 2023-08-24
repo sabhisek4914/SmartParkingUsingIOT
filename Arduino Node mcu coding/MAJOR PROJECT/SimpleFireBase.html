@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+	</script>
+</head>
+<body>
+
+INFO1 :<input type="text" id="info1" name="info1"><br>	
+INFO2 :<input type="text" id="info2" name="info2"><br>	
+<button id="save_button" name="save_button">SAVE</button>
+<button id="clear_button" name="clear_button">CLEAR</button>
+<button id="load_button" name="load_button">LOAD</button>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD_e3lo257Ecsqn6W4-7c3TURUq-LxTWws",
+    authDomain: "sub1-8fff4.firebaseapp.com",
+    databaseURL: "https://sub1-8fff4.firebaseio.com",
+    projectId: "sub1-8fff4",
+    storageBucket: "sub1-8fff4.appspot.com",
+    messagingSenderId: "762912316311"
+  };
+  firebase.initializeApp(config);
+  var rootRef=firebase.database().ref().child('infos');
+  $('#save_button').click(function(){
+	  rootRef.set({
+		  info1:$('#info1').val(),
+		  info2:$('#info2').val()
+	  });
+  });
+
+  $('#clear_button').click(function(){
+      $('#info1').val(''),
+      $('#info2').val('')
+      });
+
+  $('#load_button').click(function(){
+	 rootRef.on('value',function(snapshot){
+		  $('#info1').val(snapshot.child('info1').val());
+		  $('#info2').val(snapshot.child('info2').val());
+	  })
+  })
+</script>
+</body>
+</html>
